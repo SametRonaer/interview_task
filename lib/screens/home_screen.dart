@@ -17,13 +17,6 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           elevation: 1,
-          leading: IconButton(
-            icon: const Icon(
-              Icons.search,
-              color: Colors.black,
-            ),
-            onPressed: () {},
-          ),
           title: const Text(
             "Home",
             style: TextStyle(color: Colors.black, fontSize: 17),
